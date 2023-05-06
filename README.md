@@ -16,7 +16,7 @@ an even simpler example:
         selector = ButtonsRow(["[one]", "[two]", "[three]", "[four]", "[five]", "[six]"], cursor_swap=True,
                                   functions_args_list=functions,
                                   text_after=f"{Fore.LIGHTBLACK_EX}|{Fore.RED} controls: ←, →, enter, esc")
-        selector.run()~~~
+        selector.run()```
 
 SelectValue - select a line from the proposed
         example:
@@ -26,6 +26,6 @@ SelectValue - select a line from the proposed
         selectvalue.run()
         
         value = selectvalue.get_value()
-        print(f"Вы выбрали: {value}")~~~
+        print(f"Вы выбрали: {value}")```
         
 
