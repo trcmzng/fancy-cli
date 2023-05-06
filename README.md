@@ -16,6 +16,16 @@ an even simpler example:
         selector = ButtonsRow(["[one]", "[two]", "[three]", "[four]", "[five]", "[six]"], cursor_swap=True,
                                   functions_args_list=functions,
                                   text_after=f"{Fore.LIGHTBLACK_EX}|{Fore.RED} controls: ←, →, enter, esc")
-        selector.run()
+        selector.run()~~~
+
+SelectValue - select a line from the proposed
+        example:
+``` python
+        
+        selectvalue = SelectValue("Какую функцию выполнить? ", ["Первая функция", "Действие 2", "Действие 3"], cursor_swap=True)
+        selectvalue.run()
+        
+        value = selectvalue.get_value()
+        print(f"Вы выбрали: {value}")~~~
         
 
