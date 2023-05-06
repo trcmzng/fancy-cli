@@ -15,3 +15,4 @@ selector = ButtonsRow(["[one]", "[two]", "[three]", "[four]", "[five]", "[six]"]
                           text_after=f"{Fore.LIGHTBLACK_EX}|{Fore.RED} controls: ←, →, enter, esc")
 selector.run()
 ```
+![alt text](https://i.ibb.co/Pgp61gs/2023-05-06-20-57-29.gif "usage1")
