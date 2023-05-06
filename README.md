@@ -17,5 +17,5 @@ an even simpler example:
                                   functions_args_list=functions,
                                   text_after=f"{Fore.LIGHTBLACK_EX}|{Fore.RED} controls: ←, →, enter, esc")
         selector.run()
-        ```
+        
 
