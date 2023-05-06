@@ -7,7 +7,7 @@ ButtonsRow - row of buttons driven left to right enter (esc - exit)
         ![alt text](https://i.ibb.co/Pgp61gs/2023-05-06-20-57-29.gif "usage1")
 
         an even simpler example:
-        ``` python
+``` python
         functions = [
                 (print, "\nfirst command"),
                 (print, "\nsecond command!")
