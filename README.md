@@ -4,6 +4,9 @@ This is a library for creating a function selection menu, or line selection in a
 
 ButtonsRow - row of buttons driven left to right enter (esc - exit)
 example of the usage:
+![alt text](https://i.ibb.co/Pgp61gs/2023-05-06-20-57-29.gif "usage1")
+
+an even simpler example:
 ``` python
 functions = [
         (print, "\nfirst command"),
@@ -15,4 +18,4 @@ selector = ButtonsRow(["[one]", "[two]", "[three]", "[four]", "[five]", "[six]"]
                           text_after=f"{Fore.LIGHTBLACK_EX}|{Fore.RED} controls: ←, →, enter, esc")
 selector.run()
 ```
-![alt text](https://i.ibb.co/Pgp61gs/2023-05-06-20-57-29.gif "usage1")
+
