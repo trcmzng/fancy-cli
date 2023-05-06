@@ -29,5 +29,5 @@ SelectValue - select a line from the proposed
         value = selectvalue.get_value()
         print(f"Вы выбрали: {value}")
         
-        )
+        
         ```
