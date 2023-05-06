@@ -30,4 +30,4 @@ SelectValue - select a line from the proposed
         print(f"Вы выбрали: {value}")
         
         
-        ```
+        
