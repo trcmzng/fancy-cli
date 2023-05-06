@@ -4,7 +4,7 @@ This is a library for creating a function selection menu, or line selection in a
 
 ButtonsRow - row of buttons driven left to right enter (esc - exit)
 example of the usage:
-```
+``` python
 functions = [
         (print, "\nfirst command"),
         (print, "\nsecond command!")
