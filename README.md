@@ -19,3 +19,11 @@ ButtonsRow - row of buttons driven left to right enter (esc - exit)
         selector.run()
         ```
 
+SelectValue - select a line from the proposed
+        ``` python 
+        selectvalue = SelectValue("Какую функцию выполнить? ", ["Первая функция", "Действие 2", "Действие 3"], cursor_swap=True)
+        selectvalue.run()
+        value = selectvalue.get_value()
+        print(f"Вы выбрали: {value}")
+        time.sleep(1)
+        ```
