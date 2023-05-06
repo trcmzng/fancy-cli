@@ -2,7 +2,7 @@
 This is a library for creating a function selection menu, or line selection in a command interface shell, controlled by the left/right, enter, esc keys
 
 
-              ButtonsRow - row of buttons driven left to right enter (esc - exit)
+ButtonsRow - row of buttons driven left to right enter (esc - exit)
         example of the usage:
         ![alt text](https://i.ibb.co/Pgp61gs/2023-05-06-20-57-29.gif "usage1")
 
