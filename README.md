@@ -28,4 +28,4 @@ SelectValue - select a line from the proposed
         value = selectvalue.get_value()
         print(f"Вы выбрали: {value}")
 ```
-    
+ ![alt text](https://i.ibb.co/7XnBjHJ/2023-05-07-12-18-26.gif "usage2")
